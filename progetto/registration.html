@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+   <html>
+     <head>
+       <title>Registration</title>
+       <meta charset="utf-8">
+       <link rel="stylesheet" href="css/loginstyle.css">
+    </head>
+    <body>
+       <form id="formlogin" name="regform" action="reg.php" method="post">
+        <h1>Registration</h1>
+         Username: <input type="text" name="usrn" id="usrn" placeholder="Username"><br>
+         Password: <input type="password" name="pass" id="pass" placeholder="Password"><br><br>
+         <input type="submit" value="Registrati" onclick="checkFormR()">
+         <p>Sei già registrato? <a href="login.php">Effettua il Login</a></p>
+      </form>
+      <script>
+         function checkFormR(){
+            var password = new String (document.regform.pass.value);
+            var user = new String (document.regform.usrn.value);
+            if (password.length < 8 || user.length < 4) {
+               alert("L'username deve contenere almeno 4 caratteri\nLa password deve contenere almeno 8 caratteri");
+               return false;
+            }
+         } 
+      </script>
+    </body>
+</html>

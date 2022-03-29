@@ -1,0 +1,137 @@
+  /* page style */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+   }
+  
+  header {
+    background-color: rgb(1, 105, 190);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* navigation menu style */
+  nav {
+    background-color: #bbb;
+    padding: 1px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(40, 40, 165);
+  }
+  
+  nav ul li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+    
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgb(0, 140, 255);
+    color: black;
+  }
+
+  #logbut{
+    float:right;
+    border-left: 1px solid #bbb;
+    border-right: none;
+  }
+  
+  article {
+    background-color: rgb(201, 201, 201);
+    padding: 10px;
+    height: auto;
+  }
+
+  #img {
+    margin-left: 5px;
+    margin-right: 5px;
+    float: right;
+  }
+
+  footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(1, 105, 190);
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  /* table style */
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+      padding: 10px;
+  }
+    /* alternate background color */
+  tr:first-child:hover{
+    background-color:   rgb(201, 201, 201);
+  } 
+  tr:hover {
+    background-color:   rgb(0, 140, 255);
+  }
+  tr:nth-child(even) {
+    background-color: rgb(233, 231, 231);
+  }
+  tr:nth-child(even):hover {
+    background-color: rgb(120, 192, 250);
+  }
+
+  /* form style */
+  #formdb input[type=text] {
+    width: 70%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #formdb input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color:rgb(1, 105, 190);
+    color: white;
+    padding: 15px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+  }
+  
+  #formdb input[type=submit]:hover {
+    background-color:rgb(0, 140, 255);
+    color: black;
+  }
+  
+  #formdb {
+    border-radius: 5px;
+    padding: 20px;
+    width: 40%;
+  }
+
+  #dbcont {
+      height: 500px;
+  }
+
