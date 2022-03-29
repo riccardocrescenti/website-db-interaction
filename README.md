@@ -1,4 +1,10 @@
 # Web and Multimedia Technologies – Project
 ## Website for sharing scientific articles
 
-Università di Pavia - Computer Engineering
+Client-side technologies used:
+  - HTML, CSS, JavaScript
+Server-side technologies used:
+  - PHP, MySQL, WAMP server
+
+
+### Università di Pavia - Computer Engineering
