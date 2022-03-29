@@ -3,6 +3,7 @@
 
 Client-side technologies used:
   - HTML, CSS, JavaScript
+
 Server-side technologies used:
   - PHP, MySQL, WAMP server
 
